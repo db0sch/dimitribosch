@@ -4,28 +4,29 @@ title: Dimitri Bosch
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <h1>Hi, I'm <strong>Dimitri Bosch</strong></h1>
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <div class="main-title">
+        <h1>Hi, I'm <span class="name"><strong>Dimitri Bosch</strong></span></h1>
+      </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
       <p>
-        I recently finished Le Wagon Fullstack code bootcamp (www.lewagon.org).
-        So I know some stuff about Ruby on Rails, SQL, Git & Github, Heroku, JS, HTML, CSS...
-        Try to code everyday to get better at it.
+        I recently completed <%= link_to "Le Wagon", "https://www.lewagon.com/fr", "target":"_blank" %> fullstack code bootcamp in June 2016. <br>
+        So I know stuffs about Ruby on Rails, SQL, Git & Github, Heroku, JS, HTML, CSS...
       </p>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
       <p>
         I like tech, movies, music (jazz, worldwide, electronic...), economics and other boring things that almost only me enjoys.
       </p>      
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
       <p>
         Used to work for the movie industry (in Paris, France).
         Now, trying to start my own project (regarding... movies).
@@ -35,21 +36,44 @@ title: Dimitri Bosch
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-6">
-      <ul>
-        <li>
-          <%= link_to "github", "https://github.com/db0sch", "target":"_blank" %>
-        </li>
-        <li>
-          <%= link_to "twitter", "https://twitter.com/dimitribosch" %>
-        </li>
-        <li>
-          <%= link_to "linkedin", "https://fr.linkedin.com/in/dimitribosch" %>
-        </li>
-        <li>
-          <%= link_to "e-mail", "mailto:dimitribosch@gmail.com" %>
-        </li>
-      </ul>
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <div class="social-links text-center">
+        <ul class="list-unstyled list-inline">
+          <li>//</li>
+          <li>
+            <%= link_to "github", "https://github.com/db0sch", "target":"_blank" %>
+          </li>
+          <li>//</li>
+          <li>
+            <%= link_to "twitter", "https://twitter.com/dimitribosch", "target":"_blank" %>
+          </li>
+          <li>//</li>
+          <li>
+            <%= link_to "linkedin", "https://fr.linkedin.com/in/dimitribosch", "target":"_blank" %>
+          </li>
+          <li>//</li>
+          <li>
+            <%= link_to "e-mail", "mailto:dimitribosch@gmail.com", "target":"_blank" %>
+          </li>
+          <li>//</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <h4># projects</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+      <div class="project-item">
+        <p>clap!</p>
+        <span>|</span>
+        <p class="subtitle">the ultimate movie wathlist</p>
+        <span>|</span>
+        <%= link_to "weclap.co", "https://www.weclap.co" %>
+      </div>
     </div>
   </div>
 </div>
