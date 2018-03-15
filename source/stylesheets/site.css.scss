@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400|Playfair+Display:400,700,900');
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+body {
+  margin: 0 0px;
+}
+
+p, li {
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+li.social {
+  font-size: 0.9rem;
+}
+
+#homepage-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
