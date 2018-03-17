@@ -48,7 +48,7 @@ page '/*.txt', layout: false
 # end
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   deploy.build_before = true # default: false
   # Optional Settings
   # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
